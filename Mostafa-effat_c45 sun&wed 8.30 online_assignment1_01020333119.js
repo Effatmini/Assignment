@@ -12,13 +12,13 @@ function checkValue(value) {
 }
 
     
-console.log(checkValue(0)); // "Invalid"
+console.log(checkValue(0)); 
 
 //3
 
 for (let i = 1; i <= 10; i++) {
     if (i % 2 === 0) {
-        continue; // لو العدد زوجي، سيبه وروّح للّي بعده
+        continue; 
     }
     console.log(i);
 }
@@ -147,7 +147,6 @@ function getObjectKeys(obj) {
     return Object.keys(obj);
 }
 
-// مثال للتشغيل
 const personx = { name: "John", age: 30 };
 console.log(getObjectKeys(personx)); 
 
